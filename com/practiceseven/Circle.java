@@ -7,9 +7,10 @@ public class Circle {
         this.radius = radius;
     }
     public void area(){
-        System.out.println("Area: " + 3.14 * (radius * radius));
+        System.out.println("Area: " + Math.PI * (radius * radius));
     }
     public void circumference(){
-        System.out.println("Circumference: " + 2 * 3.14 * radius);
+        System.out.println("Circumference: " + 2 * Math.PI * radius);
     }
+
 }
